@@ -10,7 +10,7 @@
 
   --h-height-1024: 86px;
   --h-height-768: 77.25px;
-  --h-height-425: 24.5px;
+  --h-height-425: 18.5px;
 }
 
 *,
@@ -78,7 +78,7 @@ textarea {
 
 @media (max-width: 767px) {
   html {
-    scroll-padding-top: var(--h-height-768, 32px);
+    scroll-padding-top: var(--h-height-768);
   }
   .text-center-sm {
     text-align: center !important;
