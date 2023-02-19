@@ -1,12 +1,15 @@
 import { Button, Container, Form } from "react-bootstrap";
 import { Column, Section, SectionName, Special } from "../../components/styled-components/Page.styled";
 import "./Contact.css";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
 
 const Contact = () => {
   const form = useRef();
+  const [fullName, setFullName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -44,13 +47,13 @@ const Contact = () => {
           <SectionName>Get in touch</SectionName>
           <Form ref={form} onSubmit={sendEmail} className="mt-lg-5 mt-md-3">
             <Form.Group className="mb-3">
-              <Form.Control type="text" placeholder="Name" name="full_name" required />
+              <Form.Control type="text" value={fullName} onChange={(e) => setFullName(e.target.value)} placeholder="Name" name="full_name" required />
             </Form.Group>
             <Form.Group className="mb-3">
-              <Form.Control type="email" placeholder="Email" name="email" required />
+              <Form.Control type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email" name="email" required />
             </Form.Group>
             <Form.Group className="mb-3">
-              <Form.Control as="textarea" placeholder="Message" name="message" required rows="3" />
+              <Form.Control as="textarea" value={message} onChange={(e) => setMessage(e.target.value)} placeholder="Message" name="message" required rows="3" />
             </Form.Group>
             <Button type="submit">Send</Button>
           </Form>
