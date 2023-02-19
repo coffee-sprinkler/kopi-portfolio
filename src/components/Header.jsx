@@ -38,13 +38,15 @@ const Header = () => {
 
   return (
     <>
-      <SkipNavLink href="#main-content">Skip to Content</SkipNavLink>
+      <SkipNavLink aria-label="skip to main content" href="#main-content">
+        Skip to Content
+      </SkipNavLink>
       <HeaderWrapper>
         <Container>
           <Brand href="#" onClick={(e) => handleScrollToTop(e)}>
             Coffee Sprinkler
           </Brand>
-          <Hamburger onClick={toggleHamburger} aria-controls="primary-nav" aria-expanded={isExpanded} ref={mobileNavTogglerRef}>
+          <Hamburger onClick={toggleHamburger} aria-label="hamburger menu" aria-controls="primary-nav" aria-expanded={isExpanded} ref={mobileNavTogglerRef}>
             {isExpanded ? <i className="bi bi-x-lg"></i> : <i className="bi bi-list"></i>}
           </Hamburger>
           <nav>

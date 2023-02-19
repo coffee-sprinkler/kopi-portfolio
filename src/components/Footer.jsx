@@ -12,10 +12,10 @@ const Footer = () => {
         <Row>
           <Special className="text-center">Find me in social media</Special>
           <Links className="mt-3 justify-content-center">
-            <Icon href="https://github.com/coffee-sprinkler" target="_blank">
+            <Icon href="https://github.com/coffee-sprinkler" aria-label="github link" target="_blank">
               <i className="bi bi-github"></i>
             </Icon>
-            <Icon href="https://www.linkedin.com/in/denduplon/" target="_blank">
+            <Icon href="https://www.linkedin.com/in/denduplon/" aria-label="linkedin profile" target="_blank">
               <i className="bi bi-linkedin"></i>
             </Icon>
           </Links>
