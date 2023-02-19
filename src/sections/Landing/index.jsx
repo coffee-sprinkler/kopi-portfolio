@@ -12,16 +12,16 @@ const Landing = () => {
           <Name>Dennis Duplon</Name>
           <Title>Web Developer</Title>
           <Links className="mt-3">
-            <Icon href="https://github.com/coffee-sprinkler" target="_blank">
+            <Icon href="https://github.com/coffee-sprinkler" aria-label="github link" target="_blank">
               <i className="bi bi-github"></i>
             </Icon>
-            <Icon href="https://www.linkedin.com/in/denduplon/" target="_blank">
+            <Icon href="https://www.linkedin.com/in/denduplon/" aria-label="linkedin profile" target="_blank">
               <i className="bi bi-linkedin"></i>
             </Icon>
           </Links>
         </Column>
         <Column className="col-md-6 col-sm-12 d-md-block d-none">
-          <Image src={developer} alt="developer" />
+          <Image src={developer} alt="developer" width={660} height={574.86} />
         </Column>
       </Container>
     </Section>
