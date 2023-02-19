@@ -44,13 +44,13 @@ const Contact = () => {
           <SectionName>Get in touch</SectionName>
           <Form ref={form} onSubmit={sendEmail} className="mt-lg-5 mt-md-3">
             <Form.Group className="mb-3">
-              <Form.Control type="text" placeholder="Name" name="full_name" id="full_name" />
+              <Form.Control type="text" placeholder="Name" name="full_name" htmlFor="full_name" required />
             </Form.Group>
             <Form.Group className="mb-3">
-              <Form.Control type="email" placeholder="Email" name="email" id="email" />
+              <Form.Control type="email" placeholder="Email" name="email" htmlFor="email" required />
             </Form.Group>
             <Form.Group className="mb-3">
-              <Form.Control as="textarea" placeholder="Message" name="message" id="message" rows="3" />
+              <Form.Control as="textarea" placeholder="Message" name="message" htmlFor="message" required rows="3" />
             </Form.Group>
             <Button type="submit">Send</Button>
           </Form>
