@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import smoothscroll from "smoothscroll-polyfill";
 import Landing from "../sections/Landing";
 import About from "../sections/About";
 import Skills from "../sections/Skills";
@@ -29,6 +30,7 @@ const Main = () => {
   }, []);
 
   const handleScrollToTop = () => {
+    smoothscroll.polyfill();
     window.scrollTo({ top: 0, behavior: "smooth" });
     window.history.replaceState(null, document.title, window.location.pathname + window.location.search);
   };
