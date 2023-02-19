@@ -16,35 +16,35 @@ const Skills = () => {
         <SectionName className="text-center-sm">Skills</SectionName>
         <Skillset>
           <Skill>
-            <Image className="mx-auto" width={48} height={48} loading="lazy" src={html} />
+            <Image className="mx-auto" width={48} height={48} loading="lazy" src={html} alt="html" />
             <SkillName>HTML</SkillName>
           </Skill>
           <Skill>
-            <Image className="mx-auto" width={48} height={48} loading="lazy" src={css} />
+            <Image className="mx-auto" width={48} height={48} loading="lazy" src={css} alt="css" />
             <SkillName>CSS</SkillName>
           </Skill>
           <Skill>
-            <Image className="mx-auto" width={48} height={48} loading="lazy" src={js} />
+            <Image className="mx-auto" width={48} height={48} loading="lazy" src={js} alt="js" />
             <SkillName>Javascript</SkillName>
           </Skill>
           <Skill>
-            <Image className="mx-auto" width={48} height={48} loading="lazy" src={react} />
+            <Image className="mx-auto" width={48} height={48} loading="lazy" src={react} alt="react" />
             <SkillName>React</SkillName>
           </Skill>
           <Skill>
-            <Image className="mx-auto" width={48} height={48} loading="lazy" src={bootstrap} />
+            <Image className="mx-auto" width={48} height={48} loading="lazy" src={bootstrap} alt="bootstrap" />
             <SkillName>Bootstrap</SkillName>
           </Skill>
           <Skill>
-            <Image className="mx-auto" width={48} height={48} loading="lazy" src={nodejs} />
+            <Image className="mx-auto" width={48} height={48} loading="lazy" src={nodejs} alt="nodejs" />
             <SkillName>NodeJS</SkillName>
           </Skill>
           <Skill>
-            <Image className="mx-auto" width={48} height={48} loading="lazy" src={wordpress} />
+            <Image className="mx-auto" width={48} height={48} loading="lazy" src={wordpress} alt="wordpress" />
             <SkillName>Wordpress Development</SkillName>
           </Skill>
           <Skill>
-            <Image className="mx-auto" width={48} height={48} loading="lazy" src={hubspot} />
+            <Image className="mx-auto" width={48} height={48} loading="lazy" src={hubspot} alt="hubspot" />
             <SkillName>Hubspot Design Tools</SkillName>
           </Skill>
         </Skillset>
