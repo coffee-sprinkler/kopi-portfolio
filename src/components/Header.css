@@ -36,11 +36,11 @@ header .container {
     padding: min(30vh, 10rem) 2em;
     background-color: hsl(0, 0%, 100%, 0);
     backdrop-filter: blur(1.5rem);
-    translate: 100% 0;
-    transition: translate 350ms ease-out;
+    transform: translateX(100%);
+    transition: transform 350ms ease-out;
   }
 
   #primary-nav[data-visible="true"] {
-    translate: 0;
+    transform: translateX(0);
   }
 }
