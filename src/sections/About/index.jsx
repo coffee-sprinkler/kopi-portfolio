@@ -7,7 +7,7 @@ const About = () => {
     <Section id="about">
       <Container className="d-flex align-items-center py-0 py-md-5">
         <Column order={2} className="col-md-6 col-sm-12">
-          <Image src={about} />
+          <Image src={about} loading="lazy" />
         </Column>
         <Column order={1} className="col-md-6 col-sm-12">
           <SectionName>About Me</SectionName>

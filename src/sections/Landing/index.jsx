@@ -21,7 +21,7 @@ const Landing = () => {
           </Links>
         </Column>
         <Column className="col-md-6 col-sm-12 d-md-block d-none">
-          <Image src={developer} />
+          <Image src={developer} loading="lazy" />
         </Column>
       </Container>
     </Section>

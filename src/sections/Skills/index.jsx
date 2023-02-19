@@ -16,35 +16,35 @@ const Skills = () => {
         <SectionName className="text-center-sm">Skills</SectionName>
         <Skillset>
           <Skill>
-            <Image className="mx-auto" width={48} height={48} src={html} />
+            <Image className="mx-auto" width={48} height={48} loading="lazy" src={html} />
             <SkillName>HTML</SkillName>
           </Skill>
           <Skill>
-            <Image className="mx-auto" width={48} height={48} src={css} />
+            <Image className="mx-auto" width={48} height={48} loading="lazy" src={css} />
             <SkillName>CSS</SkillName>
           </Skill>
           <Skill>
-            <Image className="mx-auto" width={48} height={48} src={js} />
+            <Image className="mx-auto" width={48} height={48} loading="lazy" src={js} />
             <SkillName>Javascript</SkillName>
           </Skill>
           <Skill>
-            <Image className="mx-auto" width={48} height={48} src={react} />
+            <Image className="mx-auto" width={48} height={48} loading="lazy" src={react} />
             <SkillName>React</SkillName>
           </Skill>
           <Skill>
-            <Image className="mx-auto" width={48} height={48} src={bootstrap} />
+            <Image className="mx-auto" width={48} height={48} loading="lazy" src={bootstrap} />
             <SkillName>Bootstrap</SkillName>
           </Skill>
           <Skill>
-            <Image className="mx-auto" width={48} height={48} src={nodejs} />
+            <Image className="mx-auto" width={48} height={48} loading="lazy" src={nodejs} />
             <SkillName>NodeJS</SkillName>
           </Skill>
           <Skill>
-            <Image className="mx-auto" width={48} height={48} src={wordpress} />
+            <Image className="mx-auto" width={48} height={48} loading="lazy" src={wordpress} />
             <SkillName>Wordpress Development</SkillName>
           </Skill>
           <Skill>
-            <Image className="mx-auto" width={48} height={48} src={hubspot} />
+            <Image className="mx-auto" width={48} height={48} loading="lazy" src={hubspot} />
             <SkillName>Hubspot Design Tools</SkillName>
           </Skill>
         </Skillset>
