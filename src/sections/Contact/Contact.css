@@ -1,0 +1,28 @@
+form .form-control {
+  font-size: 1.5em;
+}
+
+form .btn.btn-primary {
+  font-size: 1.5em;
+  font-weight: 600;
+  padding: 0.35em 4em;
+  background: linear-gradient(to left, var(--a-primary-color) 50%, var(--a-secondary-color) 50%) right;
+  background-size: 200% 100%;
+  border-color: var(--a-primary-color);
+  transition: background 200ms ease-in;
+}
+
+form .btn.btn-primary:hover {
+  background-position: left;
+}
+
+@media (max-width: 426px) {
+  form .form-control,
+  form .btn.btn-primary {
+    font-size: 1em;
+  }
+
+  form.mt-5 {
+    margin-top: 0 !important;
+  }
+}
