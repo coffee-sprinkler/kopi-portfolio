@@ -42,7 +42,7 @@ const Contact = () => {
         </Column>
         <Column className="col-md col-sm-12 col-lg-6">
           <SectionName>Get in touch</SectionName>
-          <Form ref={form} onSubmit={sendEmail} className="mt-lg-5 mt-md-3">
+          <Form ref={form} onSubmit={(e) => sendEmail(e)} className="mt-lg-5 mt-md-3">
             <Form.Group className="mb-3">
               <Form.Control type="text" placeholder="Name" name="full_name" required />
             </Form.Group>
