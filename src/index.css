@@ -78,7 +78,7 @@ textarea {
 
 @media (max-width: 767px) {
   html {
-    scroll-padding-top: var(--h-height-768);
+    scroll-padding-top: var(--h-height-425);
   }
   .text-center-sm {
     text-align: center !important;
